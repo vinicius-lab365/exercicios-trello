@@ -1,0 +1,39 @@
+:root {
+    font-size: 62.5%;
+
+    --color-bg-aside: #0c1821;
+    --color-bg-header: #1b2a41;
+    --color-bg-main: #ccc9dc;
+    --color-font-primary: #ffffff;
+    --color-font-secondary: #000000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    height: 100vh;
+}
+
+.aside {
+    color: var(--color-font-primary);
+    background-color: var(--color-bg-aside);
+}
+
+.header {
+    color: var(--color-font-primary);
+    background-color: var(--color-bg-header);
+    height: 7rem;
+}
+
+.main {
+    color: var(--color-font-secondary);
+}
