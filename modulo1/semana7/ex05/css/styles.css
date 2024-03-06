@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  font-size: 62.5%;
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #ffbf00;
+  --color-font-primary: #ffffff;
+  --color-font-secondary: #b2b2b2;
+  --color-font-tertiary: #332200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: var(--color-font-primary);
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Roboto, "sans-serif";
+  background-color: var(--color-bg-primary);
+}
+
+header {
+  max-width: 120rem;
+  height: 7rem;
+  background-color: var(--color-bg-primary);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+header ul {
+  display: flex;
+  gap: 2rem;
+}
+
+header ul li a {
+  padding: 2rem;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  max-width: 120rem;
+  margin: 4rem auto;
+  gap: 4rem;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.description {
+  align-self: end;
+  padding-bottom: 4rem;
+}
+
+.description h1 {
+  margin-bottom: 3.2rem;
+  font-size: 6.4rem;
+  line-height: 1.125;
+}
+
+.description h1 span {
+  color: var(--color-bg-secondary);
+}
+
+.description p {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+  margin-bottom: 2rem;
+}
+
+.description button {
+  background-color: var(--color-bg-secondary);
+  border: none;
+  border-radius: 0.4rem;
+}
+
+.description button a {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  text-transform: uppercase;
+  color: var(--color-font-tertiary);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+
+.img-section{
+    max-width: 100%;
+    display: block;
+  }
