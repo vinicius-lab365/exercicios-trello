@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Produtos</title>
+</head>
+<body>
+    <h1>Consulta de Produtos</h1>
+    <form>
+        <input type="text" id="inputProduct" placeholder="Insira o código ou nome do produto">
+        <input onclick="showResult(event)" type="submit" value="Consultar">
+        <input onclick="addToCart(event)" type="submit" value="Comprar">
+    </form>
+    <span id="result"></span>
+    <hr>
+    <button onclick="showTotalValue()">Buscar valor total</button>
+    <br>
+    <br>
+    <div id="cartResultElement"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
